@@ -8,10 +8,6 @@ public class Assignment4 {
             System.out.print(s.charAt(i));    // prints the characters at the index "i" on the same line.
         }
         
-        /*String s = "Hello";
-        String s2 = "hello" + s;
-
-        System.out.println(s2);*/
 
         
 
