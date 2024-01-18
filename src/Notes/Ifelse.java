@@ -1,6 +1,6 @@
 package Notes;
 
-public class subClass {
+public class Ifelse {
     public static void main(String[] args) {
         int a = 300;
         if (a < 200) {
