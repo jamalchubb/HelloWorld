@@ -1,4 +1,4 @@
-package package1.subpackage;
+package Notes;
 
 public class subClass {
     public static void main(String[] args) {

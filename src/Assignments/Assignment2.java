@@ -1,3 +1,4 @@
+package Assignments;
 
 import java.util.Scanner; // Allows inputs to be received.
 
