@@ -24,7 +24,7 @@ public class Assignment2 {
             letter = 'C';
         }  else if (60 <= grade && grade <= 70) {
             letter = 'D';
-        }  else if (50 <= grade && grade <= 60) {
+        }  else if (grade <= 60) {
             letter = 'F';
         }
         System.out.println("Grade = " + grade);

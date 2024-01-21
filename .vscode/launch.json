@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Assignment3",
+            "request": "launch",
+            "mainClass": "Assignments.Assignment3",
+            "projectName": "HelloWorld_98d055b1"
+        },
+        {
+            "type": "java",
+            "name": "Assignment3",
+            "request": "launch",
+            "mainClass": "Assignment3",
+            "projectName": "HelloWorld_98d055b1"
+        },
+        {
+            "type": "java",
+            "name": "Assignment2",
+            "request": "launch",
+            "mainClass": "Assignments.Assignment2",
+            "projectName": "HelloWorld_98d055b1"
+        },
+        {
+            "type": "java",
+            "name": "Array2",
+            "request": "launch",
+            "mainClass": "Notes.Array2",
+            "args": "$"
+        },
+        {
+            "type": "java",
+            "name": "files",
+            "request": "launch",
+            "mainClass": "Notes.files",
+            "projectName": "HelloWorld_98d055b1"
+        },
+        {
+            "type": "java",
             "name": "Assignment4",
             "request": "launch",
             "mainClass": "Assignments.Assignment4",
