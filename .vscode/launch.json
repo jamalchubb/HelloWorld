@@ -6,66 +6,36 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch with Arguments Prompt",
+            "name": "pkg",
             "request": "launch",
-            "mainClass": "",
-            "args": "${command:SpecifyProgramArgs}"
+            "mainClass": "Notes.Classes.pkg",
+            "projectName": "HelloWorld_98d055b1"
         },
-
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Notes.Classes.App",
+            "projectName": "HelloWorld_98d055b1"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Notes.App",
+            "projectName": "HelloWorld_98d055b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
         {
             "type": "java",
             "name": "Current File",
             "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Assignment2",
-            "request": "launch",
-            "mainClass": "Assignments.Assignment2",
-            "projectName": "HelloWorld_98d055b1"
-        },
-        {
-            "type": "java",
-            "name": "Assignment3",
-            "request": "launch",
-            "mainClass": "Assignments.Assignment3",
-            "projectName": "HelloWorld_98d055b1"
-        },
-        {
-            "type": "java",
-            "name": "Assignment4",
-            "request": "launch",
-            "mainClass": "Assignments.Assignment4",
-            "projectName": "HelloWorld_98d055b1"
-        },
-        {
-            "type": "java",
-            "name": "Array",
-            "request": "launch",
-            "mainClass": "Notes.Array",
-            "projectName": "HelloWorld_98d055b1"
-        },
-        {
-            "type": "java",
-            "name": "Array2",
-            "request": "launch",
-            "mainClass": "Notes.Array2",
-            "projectName": "HelloWorld_98d055b1"
-        },
-        {
-            "type": "java",
-            "name": "For",
-            "request": "launch",
-            "mainClass": "Notes.For",
-            "projectName": "HelloWorld_98d055b1"
-        },
-        {
-            "type": "java",
-            "name": "Ifelse",
-            "request": "launch",
-            "mainClass": "Notes.Ifelse",
-            "projectName": "HelloWorld_98d055b1"
+            "mainClass": ""
         }
     ]
 }
