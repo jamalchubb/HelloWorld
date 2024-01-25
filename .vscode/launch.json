@@ -6,17 +6,17 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Assignment3",
+            "name": "Launch with Arguments Prompt",
             "request": "launch",
-            "mainClass": "Assignments.Assignment3",
-            "projectName": "HelloWorld_98d055b1"
+            "mainClass": "",
+            "args": "${command:SpecifyProgramArgs}"
         },
+
         {
             "type": "java",
-            "name": "Assignment3",
+            "name": "Current File",
             "request": "launch",
-            "mainClass": "Assignment3",
-            "projectName": "HelloWorld_98d055b1"
+            "mainClass": "${file}"
         },
         {
             "type": "java",
@@ -27,16 +27,9 @@
         },
         {
             "type": "java",
-            "name": "Array2",
+            "name": "Assignment3",
             "request": "launch",
-            "mainClass": "Notes.Array2",
-            "args": "$"
-        },
-        {
-            "type": "java",
-            "name": "files",
-            "request": "launch",
-            "mainClass": "Notes.files",
+            "mainClass": "Assignments.Assignment3",
             "projectName": "HelloWorld_98d055b1"
         },
         {
@@ -48,57 +41,30 @@
         },
         {
             "type": "java",
-            "name": "Assignment2",
+            "name": "Array",
             "request": "launch",
-            "mainClass": "Assignment2",
+            "mainClass": "Notes.Array",
             "projectName": "HelloWorld_98d055b1"
         },
         {
             "type": "java",
-            "name": "Assignment4",
+            "name": "Array2",
             "request": "launch",
-            "mainClass": "package1.Assignment4",
+            "mainClass": "Notes.Array2",
             "projectName": "HelloWorld_98d055b1"
         },
         {
             "type": "java",
-            "name": "Reverse",
+            "name": "For",
             "request": "launch",
-            "mainClass": "package1.Reverse",
+            "mainClass": "Notes.For",
             "projectName": "HelloWorld_98d055b1"
         },
         {
             "type": "java",
-            "name": "Test2",
+            "name": "Ifelse",
             "request": "launch",
-            "mainClass": "package1.subpackage.Test2",
-            "projectName": "HelloWorld_98d055b1"
-        },
-        {
-            "type": "java",
-            "name": "subClass",
-            "request": "launch",
-            "mainClass": "package1.subpackage.subClass",
-            "projectName": "HelloWorld_98d055b1"
-        },
-        {
-            "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "App",
-            "request": "launch",
-            "mainClass": "App",
-            "projectName": "HelloWorld_98d055b1"
-        },
-        {
-            "type": "java",
-            "name": "Test",
-            "request": "launch",
-            "mainClass": "package1.Test",
+            "mainClass": "Notes.Ifelse",
             "projectName": "HelloWorld_98d055b1"
         }
     ]
