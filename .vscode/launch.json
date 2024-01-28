@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Assignment5",
+            "request": "launch",
+            "mainClass": "Assignments.Assignment5",
+            "projectName": "HelloWorld_98d055b1"
+        },
+        {
+            "type": "java",
+            "name": "Array2",
+            "request": "launch",
+            "mainClass": "Notes.Array2",
+            "projectName": "HelloWorld_98d055b1"
+        },
+        {
+            "type": "java",
+            "name": "Assignment4",
+            "request": "launch",
+            "mainClass": "Assignments.Assignment4",
+            "projectName": "HelloWorld_98d055b1"
+        },
+        {
+            "type": "java",
             "name": "pkg",
             "request": "launch",
             "mainClass": "Notes.Classes.pkg",

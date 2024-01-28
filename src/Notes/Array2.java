@@ -7,13 +7,13 @@ import java.io.FileWriter;
 import java.util.Arrays;
 import java.util.Random;
 
-public class Array2 {
+/*public class Array2 {
    public static void generateMatrix(int[][] mat, int rows, int cols) {
       Random rand = new Random();
       int i, j;
       for (i = 0; i < rows; i++) {
           for (j = 0; j < cols; j++) {
-                 mat[i][j] = rand.nextInt(10);
+                 mat[i][j] = rand.nextInt(10); 
           }
        
       }
@@ -77,12 +77,12 @@ public class Array2 {
             for (j = 0; j < cols; j++){
                mat[i][j] = Integer.parseInt(tokens[j]);
             }
+         }
+         br.close();
+      }  catch(Exception e) {
+         System.out.println(e);
       }
-      br.close();
-   } catch(Exception e) {
-      System.out.println(e);
    }
-}
 
    public static void main(String[] args) throws Exception {
 
@@ -91,7 +91,7 @@ public class Array2 {
          int [][] mat1 = new int[2][3]; // 2 rows 3 columns
          int [][] mat2 = new int[3][4]; // 3 rows 4 columns
          int [][] mat3 = new int[2][4]; // 2 rows 4 columns
-         Random rand = new Random();
+         
         
          generateMatrix(mat1,2,3);
          generateMatrix(mat2, 3, 4);
@@ -113,7 +113,7 @@ public class Array2 {
          readArray(mat4,"matrix3.txt");
          writeArray(mat4, "matrix4.txt");
 
-   }
+   }*/
    
 
 
