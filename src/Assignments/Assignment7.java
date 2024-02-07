@@ -61,6 +61,7 @@ public class Assignment7 {
       }  catch(Exception e) {
          System.out.println(e);
       }
+    return null;
     } 
     public static void bubbleSort(int[]array){
         if (array == null) {
@@ -81,5 +82,13 @@ public class Assignment7 {
     }
     public static void main(String[]args){
         
-    }
+        int[] arr = createRandomArray(100);
+        writeArrayToFile(arr, "GeneratedArray");
+        readFileToArray("GeneratedArray");
+
+        System.out.println(arr);
+        
+        
+        
+        }
 }
