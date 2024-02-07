@@ -14,7 +14,7 @@ public class Assignment6 {
             System.out.println("This is a public method mate() for Animal class.");
         }
         
-        public class Duck{
+        class Duck{
             
             public String beakColor;
 
@@ -26,27 +26,24 @@ public class Assignment6 {
             }
         }
 
-        public class Fish{
+        class Fish{
 
-            public int sizeInFeet;
+            private int sizeInFeet;
 
-            public void canEat() {
-                System.out.println("This is a private method canEat() for Fish class.");
-                System.out.println(sizeInFeet);
-
+            private void canEat() {
+                System.out.println("This is a private method canEat()  for Fish class.");
+                
             }
-
-            
             
         }
 
-        public class Zebra{
+        class Zebra{
 
             public boolean is_wild;
             
             public void run() {
                 System.out.println("This is a public method run() for Zebra class.");
-            }
+            }   
 
         }
 
@@ -54,10 +51,8 @@ public class Assignment6 {
             Animal myAnimal = new Animal();
             System.out.println(myAnimal);
 
-            Fish myFish = new Fish()
+            Fish myFish = new Fish();
             
-            
-            .sizeInFeet;
             
             
             Zebra myZebra = new Zebra();
