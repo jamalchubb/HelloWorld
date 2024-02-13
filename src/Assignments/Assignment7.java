@@ -19,19 +19,19 @@ public class Assignment7 {
 
     }
 
-    public static void writeArrayToFile(int[] arr, String filename){
+    public static void writeArrayToFile(int[] array, String filename){
         int i, j;
         try{
             FileWriter writer = new FileWriter(filename);
             BufferedWriter bw = new BufferedWriter(writer);
-            bw.write("%d %d\n".formatted(arr.length, arr[0].length));
-            for (i = 0; i < arr.length; i++) {
-                for (j = 0; j < arr[i].length; j++) {
-                   bw.write("%d".formatted(arr[i][j]));
-                   if (j != arr[i].length - 1)
+            bw.write("%d %d\n".formatted(array.length, array[0].length));
+            for (i = 0; i < array.length; i++) {
+                for (j = 0; j < array[i].length; j++) {
+                   bw.write("%d".formatted(array[i][j]));
+                   if (j != array[i].length - 1)
                       bw.write(" ");
                 }
-                if (i != arr.length - 1)
+                if (i != array.length - 1)
                    bw.write("\n");
              }
              bw.close();
@@ -82,11 +82,13 @@ public class Assignment7 {
     }
     public static void main(String[]args){
         
-        int[] arr = createRandomArray(100);
-        writeArrayToFile(arr, "GeneratedArray");
+        int[] array = createRandomArray(100);
+        writeArrayToFile(array, "GeneratedArray");
         readFileToArray("GeneratedArray");
-
-        System.out.println(arr);
+        bubbleSort(array);
+        writeArrayToFile(array, "SortedArray");
+        readFileToArray("SortedArray");
+        
         
         
         
