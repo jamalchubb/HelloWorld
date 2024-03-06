@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Assignment11",
+            "request": "launch",
+            "mainClass": "Assignments.Assignment11",
+            "projectName": "HelloWorld_98d055b1"
+        },
+        {
+            "type": "java",
+            "name": "Gsort",
+            "request": "launch",
+            "mainClass": "Notes.Gsort",
+            "projectName": "HelloWorld_98d055b1"
+        },
+        {
+            "type": "java",
+            "name": "Generics",
+            "request": "launch",
+            "mainClass": "Notes.Generics",
+            "projectName": "HelloWorld_98d055b1"
+        },
+        {
+            "type": "java",
             "name": "Assignment10",
             "request": "launch",
             "mainClass": "Assignments.Assignment10",

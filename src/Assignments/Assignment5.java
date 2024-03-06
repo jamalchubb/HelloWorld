@@ -54,21 +54,18 @@ public class Assignment5 {
     
     public static void writeArray(int[][] mat, String filename) {
         int i, j;
-        try{
+        try {
             FileWriter writer = new FileWriter(filename);
             BufferedWriter bw = new BufferedWriter(writer);
-            bw.write("%d %d\n".formatted(mat.length, mat[0].length));
+            bw.write(mat.length + " " + mat[0].length + "\n");
             for (i = 0; i < mat.length; i++) {
                 for (j = 0; j < mat[i].length; j++) {
-                    bw.write("%d".formatted(mat[i][j]));
-                    if (j != mat[i].length - 1)
-                    bw.write(" ");
+                    bw.write(mat[i][j] + " ");
                 }
-                if (i != mat.length -1)
-                    bw.write("\n");
+                bw.write("\n");
             }
             bw.close();
-        } catch (Exception e) {
+        } catch(Exception e) {
             System.out.println(e);
         }
     }
@@ -98,14 +95,13 @@ public class Assignment5 {
 
     public static void main(String[] args) throws Exception{
         
-         Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter an integer: ");
         int integer = scanner.nextInt();
         scanner.close();
         int [][] mat1 = new int[integer][2];
         int [][] mat2 = new int[2][2];
         int [][] mat3 = new int[integer][2];
-        
 
         if (0 <= integer && integer <= 9) {
             generateMatrix(mat1, integer, 2);
