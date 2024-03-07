@@ -1,5 +1,7 @@
 package Assignments;
 
+// This assignment is about implementing Bubble Sort and Merge Sort using Generics.
+
 import java.util.Arrays;
 
 public class Assignment11< T extends Comparable<T>> {
@@ -75,6 +77,6 @@ public class Assignment11< T extends Comparable<T>> {
         System.out.println("Merge Sort:" + Arrays.toString(arr));  
         System.out.println("Time taken by Merge Sort: " + (end2 - start2) + " nanoseconds");
 
-        
+
     }
 }
